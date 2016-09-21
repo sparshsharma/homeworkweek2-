@@ -1,0 +1,15 @@
+function setup() {
+  createCanvas(600,600);
+  background(0)
+}
+
+function draw() {
+  var i = 10;
+  while (i<=600){
+  ellipse(i,i,50,50);
+  fill(255);
+  i+=40;
+    
+  }
+  
+}

@@ -1,0 +1,39 @@
+function setup() {
+   createCanvas(600,600);
+   background(120)
+ }
+ 
+ function draw() {
+   
+   var q= 30;
+   var w=570;
+   while (q<=540){
+    var i = 30;
+   while (i<=580){
+   stroke (255);
+   strokeWeight (3)
+   line (i,q,w,q);
+   fill(255);
+   i+=15;
+    
+   }
+   q+=15;
+   w-=15; 
+ }
+  
+  var s= 30;
+   var p=570;
+   while (s<=540){
+    var a = 30;
+   while (a<=580){
+   stroke (255);
+   strokeWeight (3)
+   line (s,a,s,p);
+   fill(255);
+   a+=15;
+    
+   }
+   s+=15;
+   p-=15; 
+ }
+ }

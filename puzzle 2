@@ -1,0 +1,19 @@
+function setup() {
+   createCanvas(600,600);
+   background(0)
+ }
+ 
+ function draw() {
+   
+   var q= 0;
+   while (q<=540){
+    var i = 30;
+   while (i<=580){
+   ellipse(i,30+q,30,30);
+   fill(255);
+   i+=40;
+     
+   }
+   q+=40;
+ }
+ }

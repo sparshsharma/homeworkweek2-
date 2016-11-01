@@ -1,0 +1,21 @@
+function setup() {
+   createCanvas(600,600);
+   background(255)
+ 
+   var q= 0;
+   while (q<=540){
+    var i = 30;
+   while (i<=580){
+     colorMode(HSB)
+     fill(random(0,255),255,255);
+     noStroke()
+   ellipse(i,30+q,30,30);
+   i+=40;
+     
+   }
+   q+=40;
+ }
+}
+ 
+  function draw() {
+ }
